@@ -1,7 +1,13 @@
 # Multi-Agent Intention Progression with Reward Machines
+
 Source code for the IJCAI-22 paper *Multi-Agent Intention Progression with Reward Machines*, by Michael Dann, Yuan Yao, Natasha Alechina, Brian Logan and John Thangarajah.
 
-## Experiment Videos
+## Running
+
+To launch the experiments, just run the main Java file (/src/main/Main.java). The code is set up to run the Craft World experiments by default, but this can be changed by setting environment = Environment.OFFICE_WORLD near the top of the file. Results are automatically saved to the /log folder. A video for each run is generated automatically, provided ffmpeg is installed.
+
+
+## Sample Videos
 
 In the [videos](https://github.com/mchldann/IRM_IJCAI/tree/main/videos) folder, we have provided demos of the agents attempting the Office World and Craft World tasks.
 
